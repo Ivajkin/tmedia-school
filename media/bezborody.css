@@ -1,0 +1,2613 @@
+/* line 38, scss/bezborody.dev.scss */
+body {
+  min-width: 960px !important;
+  position: relative;
+}
+
+/* line 46, scss/bezborody.dev.scss */
+.root_contol_line b {
+  font: bold 12px Tahoma;
+}
+
+/* line 50, scss/bezborody.dev.scss */
+.root_contol a {
+  background: none repeat scroll 0 0 #D4D0C8;
+  border-color: #F0F0F0 #404040 #404040 #F0F0F0;
+  border-style: solid;
+  border-width: 1px;
+  color: black !important;
+  display: block;
+  font: 12px Tahoma;
+  margin: 6px;
+  padding: 5px;
+  text-decoration: none;
+}
+
+/* line 63, scss/bezborody.dev.scss */
+.root_contol a:hover, .root_contol a.pseudo-hover {
+  background: none repeat scroll 0 0 #E0DDD8;
+}
+
+/* line 67, scss/bezborody.dev.scss */
+.root_contol_line a {
+  font: 12px Tahoma;
+  margin: 10px;
+}
+
+/* line 72, scss/bezborody.dev.scss */
+.red_as_sickel {
+  color: #BB3333 !important;
+}
+
+/* line 76, scss/bezborody.dev.scss */
+.zoomwindow_container {
+  float: left;
+  position: relative;
+}
+
+/* line 81, scss/bezborody.dev.scss */
+.zoomwindow {
+  background: none repeat scroll 0 0 white;
+  border: 1px solid #CCCCCC;
+  height: 500px;
+  left: 20px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 5px;
+  width: 500px;
+}
+
+/* line 93, scss/bezborody.dev.scss */
+.zoomwindow img {
+  border: 1px solid black;
+  position: absolute;
+}
+
+/* line 98, scss/bezborody.dev.scss */
+#little {
+  float: left;
+  left: 20%;
+  top: 130px;
+}
+
+/* line 104, scss/bezborody.dev.scss */
+body {
+  background: none repeat scroll 0 0 #FFFFFF;
+  font: 1em Verdana, Arial, sans-serif;
+  margin: 0;
+  padding: 0 0 3em;
+}
+
+/* line 111, scss/bezborody.dev.scss */
+a:link, a.novisited:visited, .novisited a:visited {
+  color: #0c4f72;
+}
+
+/* line 116, scss/bezborody.dev.scss */
+a:active {
+  color: #bb3300;
+}
+
+/* line 120, scss/bezborody.dev.scss */
+a:hover, a.pseudo-hover, a.novisited:hover, .novisited a:hover {
+  color: #bb3300;
+}
+
+/* line 124, scss/bezborody.dev.scss */
+button {
+  background: none repeat scroll 0 0 #F7EEC6;
+  font-size: 1.1em;
+}
+
+/* line 129, scss/bezborody.dev.scss */
+button:hover {
+  background: none repeat scroll 0 0 #F3E18B;
+}
+
+/* line 133, scss/bezborody.dev.scss */
+div.logo {
+  background: url("i/logo--fff0be.gif") no-repeat right center #fff0be;
+  clear: left;
+  float: left;
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  left: 0;
+  margin-top: -1.2em;
+  position: relative;
+  white-space: nowrap;
+  -moz-border-radius-topleft: 2px;
+  -webkit-border-top-left-radius: 2px;
+  -o-border-top-left-radius: 2px;
+  -ms-border-top-left-radius: 2px;
+  -khtml-border-top-left-radius: 2px;
+  border-top-left-radius: 2px;
+  -moz-border-radius-bottomleft: 2px;
+  -webkit-border-bottom-left-radius: 2px;
+  -o-border-bottom-left-radius: 2px;
+  -ms-border-bottom-left-radius: 2px;
+  -khtml-border-bottom-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  height: 40px;
+  margin-right: 2em;
+  width: 12.3em;
+  z-index: 10;
+}
+
+/* line 150, scss/bezborody.dev.scss */
+div.logo div {
+  background: none;
+  padding: 0.6em 3.6em 0.6em 1.2em;
+}
+
+/* line 155, scss/bezborody.dev.scss */
+div.logo--error {
+  background: url("i/logo-corner-up.gif") no-repeat right top #fff0be;
+  position: absolute;
+  height: auto;
+  width: auto;
+}
+
+/* line 162, scss/bezborody.dev.scss */
+div.logo--error div {
+  background: url("i/logo-corner-down.gif") no-repeat right bottom;
+}
+
+/* line 166, scss/bezborody.dev.scss */
+td.new-logo {
+  padding-left: 0 !important;
+  padding-bottom: 0;
+}
+
+/* line 171, scss/bezborody.dev.scss */
+td.new-logo div.logo, td.new-logo ul.menu {
+  position: relative;
+  top: 1px;
+}
+
+/* line 176, scss/bezborody.dev.scss */
+div.logoback {
+  clear: left;
+  float: left;
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+  font-size: 0.9em;
+  margin-top: -0.6em;
+  white-space: nowrap;
+}
+
+/* line 185, scss/bezborody.dev.scss */
+div.logoback a {
+  color: black;
+}
+
+/* line 189, scss/bezborody.dev.scss */
+div.shortlogo {
+  background: url("i/logo-corner-up.gif") no-repeat scroll right top #fff0be;
+  clear: left;
+  float: left;
+  left: -1.2em;
+  margin-right: -100%;
+  margin-top: -0.6em;
+  position: relative;
+  white-space: nowrap;
+  z-index: 200;
+}
+
+/* line 201, scss/bezborody.dev.scss */
+div.pshortlogo {
+  background: url("i/logo-corner-up.gif") no-repeat scroll right top #fff0be;
+  clear: left;
+  float: left;
+  left: -1.2em;
+  margin-bottom: 0;
+  margin-top: 0.6em;
+  position: relative;
+  white-space: nowrap;
+  z-index: 200;
+}
+
+/* line 213, scss/bezborody.dev.scss */
+div.shortlogo .therm span {
+  margin-right: 0.6em;
+}
+
+/* line 217, scss/bezborody.dev.scss */
+div.pshortlogo .therm span {
+  margin-right: 0;
+  white-space: nowrap;
+}
+
+/* line 222, scss/bezborody.dev.scss */
+div.shortlogo, div.pshortlogo {
+  min-width: 8.4em;
+}
+
+/* line 226, scss/bezborody.dev.scss */
+div.shortlogo div, div.pshortlogo div {
+  background: url("i/logo-corner-down.gif") no-repeat scroll right bottom transparent;
+  padding: 0.6em 3.6em 0.6em 1.2em;
+}
+
+/* line 231, scss/bezborody.dev.scss */
+div.logo a.therm, div.shortlogo a.therm, div.pshortlogo a.therm, div.logo span.therm, div.shortlogo span.therm, div.pshortlogo span.therm {
+  margin-right: 0;
+}
+
+/* line 235, scss/bezborody.dev.scss */
+.header table td.logo {
+  font: 0.7em Verdana, Arial, sans-serif;
+  min-width: 11.5em;
+  padding-left: 1.08em;
+  padding-right: 1em;
+}
+
+/* line 242, scss/bezborody.dev.scss */
+form {
+  margin: 0;
+}
+
+/* line 246, scss/bezborody.dev.scss */
+input.text {
+  width: 100%;
+}
+
+/* line 250, scss/bezborody.dev.scss */
+input.texthalf {
+  width: 50%;
+}
+
+/* line 254, scss/bezborody.dev.scss */
+textarea {
+  height: 17em;
+  width: 100%;
+}
+
+/* line 259, scss/bezborody.dev.scss */
+input, button {
+  margin-right: 2em;
+}
+
+/* line 263, scss/bezborody.dev.scss */
+input.checkbox {
+  margin-right: 0.6em;
+}
+
+/* line 267, scss/bezborody.dev.scss */
+.formcomment {
+  line-height: 1.3em;
+  margin-bottom: 0;
+  margin-top: 0.4em;
+}
+
+/* line 273, scss/bezborody.dev.scss */
+p {
+  margin-bottom: 1.3em;
+  margin-top: 0;
+}
+
+/* line 278, scss/bezborody.dev.scss */
+h1 {
+  font: bold 1em Verdana, Arial, sans-serif bold;
+  margin: 3.2em 0 0.26em;
+  width: 52%;
+}
+
+/* line 284, scss/bezborody.dev.scss */
+h2 {
+  font: bold 1em Verdana, Arial, sans-serif bold;
+  margin: 3.9em 0 1.3em;
+}
+
+/* line 289, scss/bezborody.dev.scss */
+h2.first {
+  margin-top: 0;
+}
+
+/* line 293, scss/bezborody.dev.scss */
+h3 {
+  font: bold 1em Verdana, Arial, sans-serif bold;
+  margin: 2.6em 0 0;
+}
+
+/* line 298, scss/bezborody.dev.scss */
+td.hnew {
+  min-height: 4em;
+  *height: 4em;
+  padding-left: 0.6em;
+}
+
+/* line 304, scss/bezborody.dev.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  font: 1em Verdana, Arial, sans-serif;
+}
+
+/* line 310, scss/bezborody.dev.scss */
+td {
+  vertical-align: top;
+}
+
+/* line 314, scss/bezborody.dev.scss */
+tr {
+  vertical-align: top;
+}
+
+/* line 318, scss/bezborody.dev.scss */
+table.paragraph, table.dparagraph, table.oparagraph, table.header {
+  width: 100%;
+  top: 0;
+  position: relative;
+}
+
+/* line 324, scss/bezborody.dev.scss */
+table.header {
+  table-layout: fixed;
+}
+
+/* line 328, scss/bezborody.dev.scss */
+table.header--old {
+  table-layout: auto;
+}
+
+/* line 332, scss/bezborody.dev.scss */
+table.header table {
+  position: relative;
+  width: 100%;
+}
+
+/* line 337, scss/bezborody.dev.scss */
+table.paragraph td {
+  padding-bottom: 1.3em;
+}
+
+/* line 341, scss/bezborody.dev.scss */
+table.dparagraph td {
+  padding-bottom: 2.6em;
+}
+
+/* line 345, scss/bezborody.dev.scss */
+table.oparagraph td {
+  padding-bottom: 0;
+}
+
+/* line 349, scss/bezborody.dev.scss */
+ol {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+/* line 355, scss/bezborody.dev.scss */
+ol li {
+  margin: 0 0 1.3em 0;
+}
+
+/* line 359, scss/bezborody.dev.scss */
+ul {
+  list-style-type: none;
+  margin: 0 0 2.6em;
+  padding: 0;
+}
+
+/* line 365, scss/bezborody.dev.scss */
+ul li {
+  margin-bottom: 0.6em;
+}
+
+/* line 369, scss/bezborody.dev.scss */
+ul.menu {
+  margin: 0;
+  padding: 0;
+  width: 100% !important;
+}
+
+/* line 375, scss/bezborody.dev.scss */
+ul.menu li {
+  margin-bottom: 0.9em;
+  float: left;
+  font-size: 12px;
+}
+
+/* line 381, scss/bezborody.dev.scss */
+ul.menu li ul.submenu {
+  margin: 9px 0 0;
+  padding: 0;
+  position: absolute;
+}
+
+/* line 387, scss/bezborody.dev.scss */
+ul.menu li ul.submenu ul.submenu {
+  margin: 8px 0 0;
+}
+
+/* line 391, scss/bezborody.dev.scss */
+ul.menu li ul.submenu li {
+  display: block;
+  float: none;
+  font-size: 11px;
+  margin-bottom: 8px;
+}
+
+/* line 398, scss/bezborody.dev.scss */
+ul.menu li ul.submenu li span {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* line 403, scss/bezborody.dev.scss */
+.one ul li {
+  margin-left: 2em;
+}
+
+/* line 407, scss/bezborody.dev.scss */
+.one ul li.lihead, .one ul li.lifirst, .one ul.noindent li {
+  margin-left: 0;
+}
+
+/* line 411, scss/bezborody.dev.scss */
+li.lihead {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+/* line 416, scss/bezborody.dev.scss */
+li.lifirst {
+  margin-bottom: 0;
+}
+
+/* line 420, scss/bezborody.dev.scss */
+table.ul td {
+  padding-left: 0;
+  padding-bottom: 0.6em;
+  padding-right: 1.3em;
+}
+
+/* line 426, scss/bezborody.dev.scss */
+table.ul {
+  margin-bottom: 1.3em;
+}
+
+/* line 430, scss/bezborody.dev.scss */
+table.ul tr.group td {
+  padding-top: 0.8em;
+}
+
+/* line 434, scss/bezborody.dev.scss */
+.one .smaller, .three .smaller {
+  font-size: 0.875em;
+}
+
+/* line 438, scss/bezborody.dev.scss */
+.header .four {
+  font: 0.7em/1.3em Verdana, Arial, sans-serif;
+  padding-right: 1em;
+  padding-left: 1.08em;
+  /*padding-left:0 !important;
+  padding-right:0 !important;*/
+  padding-top: 2.1em;
+}
+
+/* line 447, scss/bezborody.dev.scss */
+.header .leftmargin {
+  padding-top: 1.486em;
+}
+
+/* line 451, scss/bezborody.dev.scss */
+.header .one {
+  font: 0.8em/1.3em Verdana, Arial, sans-serif;
+  padding-left: 0.945em;
+  padding-right: 0;
+  padding-top: 1.3em;
+}
+
+/* line 458, scss/bezborody.dev.scss */
+.header td {
+  padding: 0 0 1.3em;
+}
+
+/* line 462, scss/bezborody.dev.scss */
+.header table td.h {
+  padding-left: 0.756em;
+}
+
+/* line 466, scss/bezborody.dev.scss */
+.header table td.hnew {
+  padding-left: 0.756em;
+  padding-top: 2.3em;
+  padding-bottom: 0;
+}
+
+/* line 472, scss/bezborody.dev.scss */
+.paragraph td.one, .dparagraph td.one, .oparagraph td.one {
+  font: 0.8em/1.3em Verdana, Arial, sans-serif;
+  padding-left: 0.945em;
+  padding-right: 0;
+}
+
+/* line 478, scss/bezborody.dev.scss */
+td.two, td.three {
+  font: 0.8em/1.3em Verdana, Arial, sans-serif;
+  padding-left: 0.945em;
+  padding-right: 3em;
+}
+
+/* line 484, scss/bezborody.dev.scss */
+.paragraph td.four, .paragraph div.four, .dparagraph td.four, .dparagraph div.four, .oparagraph td.four, .oparagraph div.four, td.leftmargin, tr.form td {
+  font: 0.7em/1.3em Verdana, Arial, sans-serif;
+  padding-left: 1.08em;
+  padding-right: 1em;
+}
+
+/* line 490, scss/bezborody.dev.scss */
+tr.formgroup td {
+  font: 0.7em/1.3em Verdana, Arial, sans-serif;
+  padding-left: 1.08em;
+  padding-right: 1em;
+  padding-top: 1.3em;
+}
+
+/* line 497, scss/bezborody.dev.scss */
+td.leftmargin {
+  min-width: 11.5em;
+}
+
+/* line 501, scss/bezborody.dev.scss */
+div.leftmargin {
+  clear: both;
+  height: 0.1em;
+  width: 9.42em;
+}
+
+/* line 507, scss/bezborody.dev.scss */
+.date {
+  font: 0.6em Verdana, Arial, sans-serif;
+}
+
+/* line 511, scss/bezborody.dev.scss */
+span.prohibit {
+  color: #BB3333;
+  text-decoration: line-through;
+}
+
+/* line 516, scss/bezborody.dev.scss */
+.prohibit span {
+  color: #000000;
+}
+
+/* line 520, scss/bezborody.dev.scss */
+.prohibit del {
+  color: #000000;
+  text-decoration: none;
+}
+
+/* line 525, scss/bezborody.dev.scss */
+* html .prohibit del {
+  text-decoration: line-through;
+}
+
+/* line 529, scss/bezborody.dev.scss */
+.one img {
+  margin-top: 0.4em;
+}
+
+/* line 533, scss/bezborody.dev.scss */
+.paragraph .four img, .dparagraph .four img, .oparagraph .four img, .leftmargin img {
+  margin-top: 0.5em;
+}
+
+/* line 537, scss/bezborody.dev.scss */
+.one div.caption, .two div.caption, .three div.caption {
+  font: 0.875em/1.3em Verdana, Arial, sans-serif;
+  margin-bottom: 2.97em;
+  margin-top: 1.3em;
+}
+
+/* line 544, scss/bezborody.dev.scss */
+.four div.caption {
+  line-height: 1.3em;
+  margin-bottom: 2.6em;
+  margin-top: 1.3em;
+}
+
+/* line 550, scss/bezborody.dev.scss */
+.one div.blockquote {
+  font: 0.875em/1.3em Verdana, Arial, sans-serif;
+  left: -1em;
+  margin-bottom: 2.6em;
+  padding-left: 1em;
+  position: relative;
+  width: 75%;
+}
+
+/* line 559, scss/bezborody.dev.scss */
+.one div.blockquote p {
+  margin-bottom: 0.6em;
+}
+
+/* line 563, scss/bezborody.dev.scss */
+span.sup {
+  font-size: 0.7em;
+  margin-bottom: -0.3em;
+  margin-left: 0.2em;
+  position: relative;
+  top: -0.3em;
+}
+
+/* line 571, scss/bezborody.dev.scss */
+span.sub {
+  font-size: 0.7em;
+  margin-bottom: -0.3em;
+  margin-left: 0.2em;
+  position: relative;
+  top: 0.3em;
+}
+
+/* line 579, scss/bezborody.dev.scss */
+span.halfspace {
+  margin-right: 0.35em;
+}
+
+/* line 583, scss/bezborody.dev.scss */
+span.red {
+  color: #BB3333;
+}
+
+/* line 587, scss/bezborody.dev.scss */
+.smallcapitals {
+  font-size: 0.875em;
+  letter-spacing: 0.15em;
+  margin-right: -0.15em;
+}
+
+/* line 593, scss/bezborody.dev.scss */
+.hs {
+  font-size: 0.5em;
+  line-height: 1;
+}
+
+/* line 598, scss/bezborody.dev.scss */
+.disabled {
+  color: #999999;
+}
+
+/* line 602, scss/bezborody.dev.scss */
+img.soviet {
+  border: 1px solid #CCCCCC;
+}
+
+/* line 606, scss/bezborody.dev.scss */
+a:hover img.soviet, a.pseudo-hover img.soviet, a:hover .hover-like-img, a.pseudo-hover .hover-like-img {
+  border: 1px solid #BB3333 !important;
+}
+
+/* line 610, scss/bezborody.dev.scss */
+span.sovietbubble {
+  color: white;
+  font-size: 0.875em;
+  font-weight: bold;
+  left: 100%;
+  margin-left: -2.8em;
+  position: absolute;
+  top: 1.8em;
+  z-index: 8;
+}
+
+/* line 621, scss/bezborody.dev.scss */
+span.sovietbubble span {
+  background: url("i/bluebubble-bg.gif") no-repeat scroll left top transparent;
+  display: block;
+}
+
+/* line 626, scss/bezborody.dev.scss */
+span.sovietbubble span span {
+  background: url("i/bluebubble-leftbot.gif") no-repeat scroll left bottom transparent;
+  display: block;
+}
+
+/* line 631, scss/bezborody.dev.scss */
+span.sovietbubble span span span {
+  background: url("i/bluebubble-righttop.gif") no-repeat scroll right top transparent;
+  display: block;
+}
+
+/* line 636, scss/bezborody.dev.scss */
+span.sovietbubble span span span span {
+  background: url("i/bluebubble-rightbot.gif") no-repeat scroll right bottom transparent;
+  display: block;
+}
+
+/* line 641, scss/bezborody.dev.scss */
+span.sovietbubble span span span span span {
+  background: url("i/bluebubble-lefttop.gif") no-repeat scroll left top transparent;
+  display: block;
+  padding: 0.1em 0.65em 0 0.85em;
+}
+
+/* line 647, scss/bezborody.dev.scss */
+span.greysovietbubble {
+  color: white;
+  font-size: 0.875em;
+  font-weight: bold;
+  left: 100%;
+  margin-left: -2.8em;
+  position: absolute;
+  top: 1.8em;
+  z-index: 18;
+}
+
+/* line 658, scss/bezborody.dev.scss */
+span.greysovietbubble span {
+  background: url("i/greybubble-bg.gif") no-repeat scroll left top transparent;
+  display: block;
+}
+
+/* line 663, scss/bezborody.dev.scss */
+span.greysovietbubble span span {
+  background: url("i/greybubble-leftbot.gif") no-repeat scroll left bottom transparent;
+  display: block;
+}
+
+/* line 668, scss/bezborody.dev.scss */
+span.greysovietbubble span span span {
+  background: url("i/greybubble-righttop.gif") no-repeat scroll right top transparent;
+  display: block;
+}
+
+/* line 673, scss/bezborody.dev.scss */
+span.greysovietbubble span span span span {
+  background: url("i/greybubble-rightbot.gif") no-repeat scroll right bottom transparent;
+  display: block;
+}
+
+/* line 678, scss/bezborody.dev.scss */
+span.greysovietbubble span span span span span {
+  background: url("i/greybubble-lefttop.gif") no-repeat scroll left top transparent;
+  display: block;
+  padding: 0.1em 0.65em 0 0.85em;
+}
+
+/* line 684, scss/bezborody.dev.scss */
+span.hammerandsickle {
+  color: #BB3333;
+  font-family: Code2000, "TITUS Cyberbit Basic", "Doulos SIL", "Chrysanthi Unicode", "Bitstream Cyberbit", "Bitstream CyberBase", Thryomanes, Gentium, GentiumAlt, "Lucida Grande", "Arial Unicode MS", "Microsoft Sans Serif", "Lucida Sans Unicode";
+  font-size: 1.7em;
+  left: -1em;
+  margin-right: 0.3em !important;
+  position: absolute;
+  text-decoration: none !important;
+  top: -0.21em;
+  z-index: 2;
+}
+
+/* line 696, scss/bezborody.dev.scss */
+.hammerandsickle2 {
+  color: #BB3333;
+  font-family: Code2000, "TITUS Cyberbit Basic", "Doulos SIL", "Chrysanthi Unicode", "Bitstream Cyberbit", "Bitstream CyberBase", Thryomanes, Gentium, GentiumAlt, "Lucida Grande", "Arial Unicode MS", "Microsoft Sans Serif", "Lucida Sans Unicode";
+  font-size: 15em;
+  text-decoration: none !important;
+}
+
+/* line 703, scss/bezborody.dev.scss */
+span.unicode {
+  font-family: Code2000, "TITUS Cyberbit Basic", "Doulos SIL", "Chrysanthi Unicode", "Bitstream Cyberbit", "Bitstream CyberBase", Thryomanes, Gentium, GentiumAlt, "Lucida Grande", "Arial Unicode MS", "Microsoft Sans Serif", "Lucida Sans Unicode";
+}
+
+/* line 707, scss/bezborody.dev.scss */
+span.sbrace {
+  margin-right: 0.5em;
+}
+
+/* line 711, scss/bezborody.dev.scss */
+span.hbrace {
+  margin-left: -0.5em;
+}
+
+/* line 715, scss/bezborody.dev.scss */
+span.slaquo {
+  margin-right: 0.44em;
+  /*Опера-опера*/
+  /*display: inline-block;*/
+}
+
+@media all and (-webkit-min-device-pixel-ratio:10000), not
+all
+
+and
+(
+-webkit-min-device-pixel-ratio:
+
+0
+) {
+  /* line 734, scss/bezborody.dev.scss */
+  noindex:-o-prefocus, span.slaquo {
+    display: inline-block;
+  }
+}
+/* line 740, scss/bezborody.dev.scss */
+span.hlaquo {
+  margin-left: -0.44em;
+}
+
+/* line 744, scss/bezborody.dev.scss */
+span.slaquo-s {
+  margin-right: 0.7em;
+  /*Опера-опера*/
+  /*display: inline-block;*/
+}
+
+@media all and (-webkit-min-device-pixel-ratio:10000), not
+all
+
+and
+(
+-webkit-min-device-pixel-ratio:
+
+0
+) {
+  /* line 763, scss/bezborody.dev.scss */
+  noindex:-o-prefocus, span.slaquo-s {
+    display: inline-block;
+  }
+}
+/* line 769, scss/bezborody.dev.scss */
+span.hlaquo-s {
+  margin-left: -0.7em;
+}
+
+/* line 773, scss/bezborody.dev.scss */
+noindex:-o-prefocus, span.slaquo-b {
+  display: inline-block;
+}
+
+/* line 777, scss/bezborody.dev.scss */
+span.slaquo-b {
+  margin-left: 0.85em;
+  /*Опера-опера*/
+  /*display: inline-block;*/
+}
+
+/* line 783, scss/bezborody.dev.scss */
+noindex:-o-prefocus, span.slaquo-b {
+  display: inline-block;
+}
+
+/* line 787, scss/bezborody.dev.scss */
+span.hlaquo-b {
+  margin-left: -0.85em;
+}
+
+/* line 791, scss/bezborody.dev.scss */
+noindex:-o-prefocus, span.sbdquo {
+  margin-right: 0.4em;
+  /*Опера-опера*/
+  /*display: inline-block;*/
+}
+
+/* line 797, scss/bezborody.dev.scss */
+span.sbdquo {
+  margin-right: 0.5em;
+  display: inline-block;
+}
+
+/* line 802, scss/bezborody.dev.scss */
+span.hbdquo {
+  margin-left: -0.4em;
+}
+
+/* line 806, scss/bezborody.dev.scss */
+span.sbdquo-s {
+  margin-right: 0.35em;
+  /*Опера-опера*/
+  /*display: inline-block;*/
+}
+
+/* line 812, scss/bezborody.dev.scss */
+span.hbdquo-s {
+  margin-left: -0.35em;
+}
+
+/* line 816, scss/bezborody.dev.scss */
+span.squot {
+  margin-right: 0.32em;
+  /*Опера-опера*/
+  /*display: inline-block;*/
+}
+
+/* line 822, scss/bezborody.dev.scss */
+span.hquot {
+  margin-left: -0.32em;
+}
+
+/* line 826, scss/bezborody.dev.scss */
+span.sowc {
+  margin-right: 0.04em;
+  /*Опера-опера*/
+  /*display: inline-block;*/
+}
+
+/* line 832, scss/bezborody.dev.scss */
+span.howc {
+  margin-left: -0.04em;
+}
+
+/* line 836, scss/bezborody.dev.scss */
+span.sowcr {
+  margin-right: 0.05em;
+  /*Опера-опера*/
+  /*display: inline-block;*/
+}
+
+/* line 842, scss/bezborody.dev.scss */
+span.howcr {
+  margin-left: -0.05em;
+}
+
+/* line 846, scss/bezborody.dev.scss */
+var {
+  font-style: normal;
+}
+
+/* line 850, scss/bezborody.dev.scss */
+#for-my-dear-silicon-friends {
+  left: -1000px;
+  position: absolute;
+}
+
+/* line 855, scss/bezborody.dev.scss */
+.twitter-folow {
+  background: url("/i/chirik.png") no-repeat scroll 0 -1px transparent;
+  margin-left: 0.5em;
+  padding-left: 17px;
+}
+
+/* line 861, scss/bezborody.dev.scss */
+.twitter-folow:visited {
+  color: #0C4F72;
+}
+
+/* line 865, scss/bezborody.dev.scss */
+.twitter-folow:visited {
+  color: #0C4F72;
+}
+
+/* line 869, scss/bezborody.dev.scss */
+.twitter-folow:hover {
+  color: #BB3300;
+}
+
+/* line 873, scss/bezborody.dev.scss */
+.twitter-folow:hover {
+  color: #BB3300;
+}
+
+/* line 877, scss/bezborody.dev.scss */
+#rss {
+  background-color: #DD6600;
+  color: #FFFFFF;
+  display: block;
+  float: left;
+  left: -0.5em;
+  padding: 0 0.5em 0.2em;
+  position: relative;
+  width: 2.6em;
+}
+
+/* line 888, scss/bezborody.dev.scss */
+a#rss:hover {
+  color: #FCD743;
+}
+
+/* line 892, scss/bezborody.dev.scss */
+.rss-on-index {
+  font-size: 0.875em;
+  padding-top: 0.5em;
+}
+
+/*Коммерческие вакансии (начало)*/
+/* line 898, scss/bezborody.dev.scss */
+.cv-head {
+  margin: 3.2em 0 -2.8em;
+  position: relative;
+  *zoom: 1;
+}
+
+/* line 904, scss/bezborody.dev.scss */
+.cv-head p {
+  font: 0.8em/1.3em Verdana, Arial, sans-serif;
+  color: #b30;
+}
+
+/* line 909, scss/bezborody.dev.scss */
+.cv-sidenote {
+  background: #f3f3e2;
+  padding: 15px;
+  margin: 0 0 1.5em -15px;
+  position: relative;
+  *zoom: 1;
+}
+
+/* line 917, scss/bezborody.dev.scss */
+.cv-sidenote p {
+  margin-bottom: .6em;
+}
+
+/*Коммерческие вакансии (конец)*/
+/* Оформление пекрелючалки между дизайн-собакой и советами */
+/* line 924, scss/bezborody.dev.scss */
+.soviet_dog_switcher {
+  height: 50px;
+  padding-top: 5px;
+  font: 11px/16px Verdana;
+}
+
+/* line 930, scss/bezborody.dev.scss */
+.soviet_dog_switcher a, .soviet_dog_switcher a:visited {
+  color: #000;
+}
+
+/* line 934, scss/bezborody.dev.scss */
+.soviet_dog_switcher a:hover, .soviet_dog_switcher a.pseudo-hover {
+  color: #bb3300;
+}
+
+/* line 938, scss/bezborody.dev.scss */
+.soviet_dog_switcher ul {
+  list-style-type: none;
+}
+
+/* line 942, scss/bezborody.dev.scss */
+.soviet_dog_switcher ul li {
+  float: left;
+  margin-right: 25px;
+}
+
+/* line 947, scss/bezborody.dev.scss */
+.soviet_dog_switcher ul li span {
+  color: #999;
+}
+
+/* line 951, scss/bezborody.dev.scss */
+.soviet_dog_switcher ul li.first span.active {
+  margin-left: -10px;
+  color: #000;
+}
+
+/* line 957, scss/bezborody.dev.scss */
+.soviet_dog_switcher ul li span {
+  padding: 4px 12px 5px 12px;
+  margin-left: -12px;
+}
+
+/* line 962, scss/bezborody.dev.scss */
+.soviet_dog_switcher ul li span.active {
+  background: #f9f5e4;
+  padding: 4px 12px 5px 12px;
+  color: #000;
+}
+
+/* Дыдыдшки */
+/* line 969, scss/bezborody.dev.scss */
+.b-switch {
+  text-decoration: none;
+  border-bottom: 1px dashed;
+  cursor: pointer;
+  position: relative;
+  color: #0c4f72;
+  border-color: #0c4f72;
+}
+
+/* line 978, scss/bezborody.dev.scss */
+.b-switch:hover {
+  color: #b30;
+  border-color: #b30;
+}
+
+/* line 983, scss/bezborody.dev.scss */
+.b-switch_selected, .b-switch_disabled, .b-switch_selected u, .b-switch_disabled u {
+  border: none !important;
+  cursor: auto !important;
+}
+
+/* line 988, scss/bezborody.dev.scss */
+.b-switch_switched {
+  color: white !important;
+  border-color: white !important;
+}
+
+/* line 994, scss/bezborody.dev.scss */
+.b-switch_disabled,
+.b-switch_disabled:hover {
+  color: #777777 !important;
+}
+
+/* line 999, scss/bezborody.dev.scss */
+.b-switch_selected,
+.b-switch_selected:hover {
+  color: inherit !important;
+}
+
+/* line 1003, scss/bezborody.dev.scss */
+.b-switch_no-u {
+  border: none;
+}
+
+/* line 1007, scss/bezborody.dev.scss */
+.b-switch_no-u u {
+  border-bottom: 1px dashed;
+  text-decoration: none;
+}
+
+/* Текст в айфоне */
+/* line 1013, scss/bezborody.dev.scss */
+html {
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* Поиск в шапке */
+/* line 1021, scss/bezborody.dev.scss */
+.b-search {
+  position: absolute;
+  left: 72%;
+  margin: 0 !important;
+  top: 32px;
+  width: 22%;
+  z-index: 11;
+}
+
+/* H1 */
+/* line 1031, scss/bezborody.dev.scss */
+.b-h1 {
+  position: relative;
+}
+
+/* line 1035, scss/bezborody.dev.scss */
+.h1__sup {
+  position: absolute;
+  bottom: 100%;
+  margin: 0;
+  padding-bottom: 5px;
+}
+
+/* line 1042, scss/bezborody.dev.scss */
+.h1__sup p {
+  margin: 0;
+}
+
+/**
+Изменения от 17 июля 2012
+Исполнитель: Антон Шеин adrior@ya.ru
+Назначение: Выболнение задачи по скруглению уголков
+**/
+/* line 1054, scss/bezborody.dev.scss */
+body div.logo div {
+  padding-left: 12px;
+}
+
+/* line 1058, scss/bezborody.dev.scss */
+body #submenu span.active_menu {
+  padding-right: 12px;
+  padding-left: 12px;
+}
+
+/* line 1064, scss/bezborody.dev.scss */
+body .years_selector li {
+  position: relative;
+  left: -7px;
+}
+
+/* line 1068, scss/bezborody.dev.scss */
+body .years_selector a.ys {
+  padding: 3px 12px;
+}
+
+/* line 1073, scss/bezborody.dev.scss */
+a, a.no-u u {
+  text-decoration: none;
+  border-bottom: 1px solid #0c4f72;
+  border-color: #487b95;
+  border-color: rgba(12, 79, 114, 0.2);
+}
+
+/* line 1080, scss/bezborody.dev.scss */
+a:visited, a.no-u:visited u {
+  border-color: #8c66b2;
+  border-color: rgba(102, 51, 153, 0.2);
+}
+
+/* line 1085, scss/bezborody.dev.scss */
+a:link, a.novisited:visited, .novisited a:visited, .novisited a.no-u:visited u {
+  border-color: #487b95;
+  border-color: rgba(12, 79, 114, 0.2);
+}
+
+/* line 1090, scss/bezborody.dev.scss */
+.black-links a:link, .black-links a:visited, .black-links a:visited.no-u u, .black-links a.no-u u {
+  color: #000;
+  border-color: #3f3f3f;
+  border-color: rgba(0, 0, 0, 0.2);
+}
+
+/* line 1096, scss/bezborody.dev.scss */
+.white-submenu #submenu span.menu a {
+  border-color: #bfbfbf;
+  border-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+/* line 1100, scss/bezborody.dev.scss */
+.white-submenu #submenu span.menu a:hover {
+  border-color: #cc663f;
+  border-color: rgba(187, 51, 0, 0.2);
+  color: #bb3300;
+}
+
+/* line 1108, scss/bezborody.dev.scss */
+.tags-under-post a {
+  color: #999;
+  border-color: #d8d8d8;
+  border-color: rgba(204, 204, 204, 0.3);
+}
+
+/* line 1114, scss/bezborody.dev.scss */
+a.comment-link {
+  color: #000;
+  border-color: #3f3f3f;
+  border-color: rgba(0, 0, 0, 0.2);
+}
+
+/* line 1121, scss/bezborody.dev.scss */
+a.retwit {
+  color: #2080B0;
+  border-color: #579fc3;
+  border-color: rgba(32, 128, 176, 0.2);
+}
+
+/* line 1127, scss/bezborody.dev.scss */
+a:active {
+  border-color: #cc663f;
+  border-color: rgba(187, 51, 0, 0.2);
+}
+
+/* line 1132, scss/bezborody.dev.scss */
+a:hover, a.pseudo-hover, a.novisited:hover, .novisited a:hover, a.no-u:hover u, .black-links a:hover, .black-links a.no-u:hover u {
+  border-color: #cc663f;
+  border-color: rgba(187, 51, 0, 0.2);
+  color: #bb3300;
+}
+
+/* line 1138, scss/bezborody.dev.scss */
+ul.menu li ul.submenu li a.therm:hover span, ul.menu li ul.submenu li a.therm.active:hover span {
+  border-color: #cc663f;
+  border-color: rgba(187, 51, 0, 0.2);
+}
+
+/* line 1143, scss/bezborody.dev.scss */
+ul.menu li ul.submenu li a.therm span {
+  border-color: #3f3f3f;
+  border-color: rgba(0, 0, 0, 0.2);
+}
+
+/* line 1148, scss/bezborody.dev.scss */
+u {
+  text-decoration: none;
+}
+
+/* line 1151, scss/bezborody.dev.scss */
+a.no-u {
+  border-bottom: none;
+}
+
+/* line 1158, scss/bezborody.dev.scss */
+body.night #submenu span.menu a {
+  border-bottom: 1px solid #fff;
+  border-color: #a5a5a5;
+  border-color: rgba(221, 221, 221, 0.2);
+}
+/* line 1162, scss/bezborody.dev.scss */
+body.night #submenu span.menu a:hover {
+  border-color: #bfbfbf;
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+/* line 1168, scss/bezborody.dev.scss */
+body .b-small-widget .switches .switch {
+  margin: 0 12px;
+  padding-top: 3px;
+}
+
+/* line 1173, scss/bezborody.dev.scss */
+body .b-small-widget .switches .switch_selected {
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  border-radius: 2px;
+  padding: 3px 12px;
+  margin: 0;
+}
+
+/* line 1179, scss/bezborody.dev.scss */
+.social-block a {
+  border: none;
+}
+
+/* line 1184, scss/bezborody.dev.scss */
+a.therm {
+  border: none;
+}
+
+/* line 1192, scss/bezborody.dev.scss */
+#scroller_catcher .body {
+  -moz-border-radius-topleft: 2px;
+  -webkit-border-top-left-radius: 2px;
+  -o-border-top-left-radius: 2px;
+  -ms-border-top-left-radius: 2px;
+  -khtml-border-top-left-radius: 2px;
+  border-top-left-radius: 2px;
+  -moz-border-radius-bottomleft: 2px;
+  -webkit-border-bottom-left-radius: 2px;
+  -o-border-bottom-left-radius: 2px;
+  -ms-border-bottom-left-radius: 2px;
+  -khtml-border-bottom-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+/* line 1196, scss/bezborody.dev.scss */
+#scroller_catcher .shadow {
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -o-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -khtml-border-radius: 6px;
+  border-radius: 6px;
+  margin-left: 1px;
+}
+
+/* line 1204, scss/bezborody.dev.scss */
+.hover-like-img {
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  border-radius: 2px;
+}
+
+/* line 1208, scss/bezborody.dev.scss */
+img.soviet, .hover-like-img {
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  border-radius: 2px;
+}
+
+/* line 1213, scss/bezborody.dev.scss */
+#rss {
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  border-radius: 2px;
+}
+/* line 1215, scss/bezborody.dev.scss */
+#rss u {
+  border-color: #f6d8bf;
+  border-color: rgba(255, 255, 255, 0.2);
+}
+/* line 1218, scss/bezborody.dev.scss */
+#rss u:hover {
+  border-color: #f4ba32;
+  border-color: rgba(252, 215, 67, 0.2);
+}
+
+/* line 1227, scss/bezborody.dev.scss */
+.index-services .electronics {
+  color: #1a7e85;
+  border-color: #539ea3;
+  border-color: rgba(26, 126, 133, 0.2);
+}
+/* line 1232, scss/bezborody.dev.scss */
+.index-services .wayfinding {
+  color: #a65600;
+  border-color: #bc803f;
+  border-color: rgba(166, 86, 0, 0.2);
+}
+/* line 1237, scss/bezborody.dev.scss */
+.index-services a:hover {
+  color: #b30 !important;
+  border-color: #cc663f !important;
+  border-color: rgba(187, 51, 0, 0.2) !important;
+}
+
+/* line 1245, scss/bezborody.dev.scss */
+.design-dog, .soviet-header {
+  border-bottom: 1px solid #0c4f72;
+  border-color: #487b95 !important;
+  border-color: rgba(12, 79, 114, 0.2) !important;
+}
+
+/* line 1252, scss/bezborody.dev.scss */
+a:hover .design-dog, a:hover .soviet-header {
+  border-color: #cc663f !important;
+  border-color: rgba(187, 51, 0, 0.2) !important;
+}
+
+/* Бюросфера в шапке */
+/* line 1259, scss/bezborody.dev.scss */
+.b-burosfera-link {
+  font-size: 11px;
+  position: absolute;
+  left: 72%;
+  top: 18px;
+  margin-left: 12px;
+  z-index: 12;
+}
+
+/* line 1268, scss/bezborody.dev.scss */
+.b-burosfera-link a {
+  text-decoration: none;
+  border-bottom: 1px solid;
+  color: #000;
+  border-color: #3f3f3f;
+  border-color: rgba(0, 0, 0, 0.2);
+}
+
+/* line 1275, scss/bezborody.dev.scss */
+.b-burosfera-link a:hover {
+  color: #b00;
+  border-color: #cc3f3f;
+  border-color: rgba(187, 0, 0, 0.2);
+}
+
+/* line 1281, scss/bezborody.dev.scss */
+.b-burosfera-link .link .my {
+  font-weight: bold;
+}
+
+/* line 1286, scss/bezborody.dev.scss */
+.wrapper .user-nav li {
+  padding: 4px 12px 5px;
+}
+
+/* line 1290, scss/bezborody.dev.scss */
+.wrapper .user-nav li.active {
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  border-radius: 2px;
+}
+
+/* line 1296, scss/bezborody.dev.scss */
+.news-list-round-left {
+  -moz-border-radius-topleft: 2px;
+  -webkit-border-top-left-radius: 2px;
+  -o-border-top-left-radius: 2px;
+  -ms-border-top-left-radius: 2px;
+  -khtml-border-top-left-radius: 2px;
+  border-top-left-radius: 2px;
+  -moz-border-radius-bottomleft: 2px;
+  -webkit-border-bottom-left-radius: 2px;
+  -o-border-bottom-left-radius: 2px;
+  -ms-border-bottom-left-radius: 2px;
+  -khtml-border-bottom-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+
+/* line 1301, scss/bezborody.dev.scss */
+.news-list-round-right {
+  -moz-border-radius-topright: 2px;
+  -webkit-border-top-right-radius: 2px;
+  -o-border-top-right-radius: 2px;
+  -ms-border-top-right-radius: 2px;
+  -khtml-border-top-right-radius: 2px;
+  border-top-right-radius: 2px;
+  -moz-border-radius-bottomright: 2px;
+  -webkit-border-bottom-right-radius: 2px;
+  -o-border-bottom-right-radius: 2px;
+  -ms-border-bottom-right-radius: 2px;
+  -khtml-border-bottom-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+/* line 1307, scss/bezborody.dev.scss */
+body .years_selector a.selected {
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  border-radius: 2px;
+  background: #f9f5e4;
+}
+/* line 1310, scss/bezborody.dev.scss */
+body .years_selector a.selected u {
+  border: none;
+}
+
+/* line 1316, scss/bezborody.dev.scss */
+body #weather_year .wc_month {
+  background: #f9f5e4;
+}
+
+/* line 1320, scss/bezborody.dev.scss */
+body .highlighted {
+  background: #f9f5e4;
+}
+
+/* line 1326, scss/bezborody.dev.scss */
+.soviet_dog_switcher .active {
+  border-radius: 2px;
+}
+/* line 1329, scss/bezborody.dev.scss */
+.soviet_dog_switcher a {
+  border-color: #3f3f3f;
+  border-color: rgba(0, 0, 0, 0.2);
+}
+/* line 1333, scss/bezborody.dev.scss */
+.soviet_dog_switcher a:hover {
+  color: #b30 !important;
+  border-color: #cc663f;
+  border-color: rgba(187, 51, 0, 0.2);
+}
+
+/* line 1341, scss/bezborody.dev.scss */
+.rounded-t-l {
+  -moz-border-radius-topleft: 2px;
+  -webkit-border-top-left-radius: 2px;
+  -o-border-top-left-radius: 2px;
+  -ms-border-top-left-radius: 2px;
+  -khtml-border-top-left-radius: 2px;
+  border-top-left-radius: 2px;
+}
+
+/* line 1344, scss/bezborody.dev.scss */
+.rounded-t-r {
+  -moz-border-radius-topright: 2px;
+  -webkit-border-top-right-radius: 2px;
+  -o-border-top-right-radius: 2px;
+  -ms-border-top-right-radius: 2px;
+  -khtml-border-top-right-radius: 2px;
+  border-top-right-radius: 2px;
+}
+
+/* line 1347, scss/bezborody.dev.scss */
+.rounded-b-l {
+  -moz-border-radius-bottomleft: 2px;
+  -webkit-border-bottom-left-radius: 2px;
+  -o-border-bottom-left-radius: 2px;
+  -ms-border-bottom-left-radius: 2px;
+  -khtml-border-bottom-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+
+/* line 1350, scss/bezborody.dev.scss */
+.rounded-b-r {
+  -moz-border-radius-bottomright: 2px;
+  -webkit-border-bottom-right-radius: 2px;
+  -o-border-bottom-right-radius: 2px;
+  -ms-border-bottom-right-radius: 2px;
+  -khtml-border-bottom-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+/* line 1354, scss/bezborody.dev.scss */
+.rounded {
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  border-radius: 2px;
+}
+
+/* line 1358, scss/bezborody.dev.scss */
+.rounded-l {
+  -moz-border-radius-topleft: 2px;
+  -webkit-border-top-left-radius: 2px;
+  -o-border-top-left-radius: 2px;
+  -ms-border-top-left-radius: 2px;
+  -khtml-border-top-left-radius: 2px;
+  border-top-left-radius: 2px;
+  -moz-border-radius-bottomleft: 2px;
+  -webkit-border-bottom-left-radius: 2px;
+  -o-border-bottom-left-radius: 2px;
+  -ms-border-bottom-left-radius: 2px;
+  -khtml-border-bottom-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+
+/* line 1363, scss/bezborody.dev.scss */
+.rounded-r {
+  -moz-border-radius-topright: 2px;
+  -webkit-border-top-right-radius: 2px;
+  -o-border-top-right-radius: 2px;
+  -ms-border-top-right-radius: 2px;
+  -khtml-border-top-right-radius: 2px;
+  border-top-right-radius: 2px;
+  -moz-border-radius-bottomright: 2px;
+  -webkit-border-bottom-right-radius: 2px;
+  -o-border-bottom-right-radius: 2px;
+  -ms-border-bottom-right-radius: 2px;
+  -khtml-border-bottom-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+/* line 1370, scss/bezborody.dev.scss */
+body .seealso span.active_menu {
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  border-radius: 2px;
+  background: #f9f5e4;
+}
+
+/* line 1375, scss/bezborody.dev.scss */
+body .seealso span.menu {
+  padding: 4px 12px 5px 12px;
+}
+
+/* line 1379, scss/bezborody.dev.scss */
+body #submenu span.active_menu {
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  border-radius: 2px;
+  background: #f9f5e4;
+}
+
+/* line 1384, scss/bezborody.dev.scss */
+body .white-submenu #submenu span.active_menu {
+  background: #000;
+  color: #fff;
+}
+
+/* line 1389, scss/bezborody.dev.scss */
+body .switches .b-switch_selected {
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  border-radius: 2px;
+  background: #f9f5e4;
+}
+
+/* line 1395, scss/bezborody.dev.scss */
+.button-simple, #sendEmail {
+  border: 1px solid #c0c0c0;
+  font-size: 13px;
+  padding: 3px 12px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  background: #f4e3b4;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fff0be), color-stop(100%, #ead6aa));
+  background: -webkit-linear-gradient(top, #fff0be, #ead6aa);
+  background: -moz-linear-gradient(top, #fff0be, #ead6aa);
+  background: -o-linear-gradient(top, #fff0be, #ead6aa);
+  background: -ms-linear-gradient(top, #fff0be, #ead6aa);
+  background: linear-gradient(top, #fff0be, #ead6aa);
+  border-color: #eaeaea silver #707070 silver;
+  text-shadow: 0 1px 0px rgba(255, 255, 255, 0.8);
+  -moz-transition-duration: 0.1s;
+  -webkit-transition-duration: 0.1s;
+  -o-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+}
+/* line 1405, scss/bezborody.dev.scss */
+.button-simple:hover, #sendEmail:hover {
+  background: #f8e9ba;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fff5c4), color-stop(100%, #f1ddb0));
+  background: -webkit-linear-gradient(top, #fff5c4, #f1ddb0);
+  background: -moz-linear-gradient(top, #fff5c4, #f1ddb0);
+  background: -o-linear-gradient(top, #fff5c4, #f1ddb0);
+  background: -ms-linear-gradient(top, #fff5c4, #f1ddb0);
+  background: linear-gradient(top, #fff5c4, #f1ddb0);
+}
+/* line 1409, scss/bezborody.dev.scss */
+.button-simple:active, #sendEmail:active {
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.2);
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fff0be), color-stop(100%, #ead6aa));
+  background: -webkit-linear-gradient(top, #fff0be, #ead6aa);
+  background: -moz-linear-gradient(top, #fff0be, #ead6aa);
+  background: -o-linear-gradient(top, #fff0be, #ead6aa);
+  background: -ms-linear-gradient(top, #fff0be, #ead6aa);
+  background: linear-gradient(top, #fff0be, #ead6aa);
+  border-color: silver;
+}
+/* line 1416, scss/bezborody.dev.scss */
+.button-simple[disabled], #sendEmail[disabled] {
+  opacity: 0.7;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+/* line 1417, scss/bezborody.dev.scss */
+.button-simple[disabled]:hover, #sendEmail[disabled]:hover {
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fff0be), color-stop(100%, #ead6aa));
+  background: -webkit-linear-gradient(top, #fff0be, #ead6aa);
+  background: -moz-linear-gradient(top, #fff0be, #ead6aa);
+  background: -o-linear-gradient(top, #fff0be, #ead6aa);
+  background: -ms-linear-gradient(top, #fff0be, #ead6aa);
+  background: linear-gradient(top, #fff0be, #ead6aa);
+}
+/* line 1420, scss/bezborody.dev.scss */
+.button-simple[disabled]:active, #sendEmail[disabled]:active {
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+  border-color: #eaeaea silver #707070 silver;
+}
+
+/* line 1435, scss/bezborody.dev.scss */
+.big-button {
+  font-size: 16px !important;
+  padding: 4px 14px;
+}
+
+/* line 1441, scss/bezborody.dev.scss */
+.secondary-button {
+  background: #fafafa;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fafafa), color-stop(100%, #e8e8e8));
+  background: -webkit-linear-gradient(top, #fafafa, #e8e8e8);
+  background: -moz-linear-gradient(top, #fafafa, #e8e8e8);
+  background: -o-linear-gradient(top, #fafafa, #e8e8e8);
+  background: -ms-linear-gradient(top, #fafafa, #e8e8e8);
+  background: linear-gradient(top, #fafafa, #e8e8e8);
+}
+/* line 1444, scss/bezborody.dev.scss */
+.secondary-button:active {
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fafafa), color-stop(100%, #e8e8e8));
+  background: -webkit-linear-gradient(top, #fafafa, #e8e8e8);
+  background: -moz-linear-gradient(top, #fafafa, #e8e8e8);
+  background: -o-linear-gradient(top, #fafafa, #e8e8e8);
+  background: -ms-linear-gradient(top, #fafafa, #e8e8e8);
+  background: linear-gradient(top, #fafafa, #e8e8e8);
+}
+/* line 1447, scss/bezborody.dev.scss */
+.secondary-button:hover {
+  background: #efefef;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #efefef));
+  background: -webkit-linear-gradient(top, #ffffff, #efefef);
+  background: -moz-linear-gradient(top, #ffffff, #efefef);
+  background: -o-linear-gradient(top, #ffffff, #efefef);
+  background: -ms-linear-gradient(top, #ffffff, #efefef);
+  background: linear-gradient(top, #ffffff, #efefef);
+}
+/* line 1452, scss/bezborody.dev.scss */
+.secondary-button[disabled]:hover {
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fafafa), color-stop(100%, #e8e8e8));
+  background: -webkit-linear-gradient(top, #fafafa, #e8e8e8);
+  background: -moz-linear-gradient(top, #fafafa, #e8e8e8);
+  background: -o-linear-gradient(top, #fafafa, #e8e8e8);
+  background: -ms-linear-gradient(top, #fafafa, #e8e8e8);
+  background: linear-gradient(top, #fafafa, #e8e8e8);
+}
+/* line 1455, scss/bezborody.dev.scss */
+.secondary-button[disabled]:active {
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fafafa), color-stop(100%, #e8e8e8));
+  background: -webkit-linear-gradient(top, #fafafa, #e8e8e8);
+  background: -moz-linear-gradient(top, #fafafa, #e8e8e8);
+  background: -o-linear-gradient(top, #fafafa, #e8e8e8);
+  background: -ms-linear-gradient(top, #fafafa, #e8e8e8);
+  background: linear-gradient(top, #fafafa, #e8e8e8);
+}
+
+/* line 1462, scss/bezborody.dev.scss */
+#height-strut .post-author .comment-link .comment-cnt {
+  margin-right: 0;
+}
+
+/* line 1466, scss/bezborody.dev.scss */
+body .form-bg {
+  background: #f9f5e4;
+}
+
+/* line 1470, scss/bezborody.dev.scss */
+body .form-bg-footer {
+  background: #f0e5cc;
+}
+/* line 1472, scss/bezborody.dev.scss */
+body .form-bg-footer input[type="text"] {
+  padding-top: 4px;
+  padding-bottom: 3px;
+}
+
+/* line 1479, scss/bezborody.dev.scss */
+.ask-soviet {
+  background: #f9f5e4;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  border-radius: 2px;
+}
+
+/* line 1484, scss/bezborody.dev.scss */
+body .archive ul li.selected {
+  background: #f9f5e4;
+}
+
+/* line 1489, scss/bezborody.dev.scss */
+.pshortlogo {
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  border-radius: 2px;
+}
+
+/* line 1493, scss/bezborody.dev.scss */
+#si4 {
+  border: none;
+}
+
+/* line 1501, scss/bezborody.dev.scss */
+.navigation a, .navigation b {
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  border-radius: 2px;
+}
+
+/* line 1505, scss/bezborody.dev.scss */
+div.shortlogo {
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  border-radius: 2px;
+}
+
+/* line 1509, scss/bezborody.dev.scss */
+textarea {
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  border-radius: 2px;
+}
+
+/* line 1513, scss/bezborody.dev.scss */
+body #similar-category-box .active-switcher {
+  background: #f9f5e4;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  border-radius: 2px;
+}
+
+/* line 1518, scss/bezborody.dev.scss */
+.similar .img {
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  border-radius: 2px;
+}
+
+/* line 1522, scss/bezborody.dev.scss */
+.other-vacancy .title a {
+  border-color: #cc663f !important;
+  border-color: rgba(187, 51, 0, 0.2) !important;
+}
+
+/* line 1530, scss/bezborody.dev.scss */
+.cv-sidenote {
+  background: #f9f5e4;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  border-radius: 2px;
+}
+
+/* line 1537, scss/bezborody.dev.scss */
+body.night #submenu span.menu.active_menu {
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  border-radius: 2px;
+}
+
+/* line 1541, scss/bezborody.dev.scss */
+body #submenu span.active_menu {
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  border-radius: 2px;
+  background: #f9f5e4;
+}
+
+/** СОБАКА **/
+/************/
+/* line 1551, scss/bezborody.dev.scss */
+#add-news-button {
+  position: relative;
+  display: block;
+  left: -3px;
+  width: 90px;
+  height: 90px;
+  color: #000;
+  max-width: 100px;
+}
+/* line 1559, scss/bezborody.dev.scss */
+#add-news-button div.tail {
+  position: absolute;
+  width: 22px;
+  height: 33px;
+  left: 34px;
+  background: #f4e3b4;
+  -moz-transition-duration: 0.1s;
+  -webkit-transition-duration: 0.1s;
+  -o-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+}
+/* line 1567, scss/bezborody.dev.scss */
+#add-news-button div.body {
+  position: absolute;
+  width: 76px;
+  height: 19px;
+  padding-top: 3px;
+  padding-left: 12px;
+  font-size: 13px;
+  text-align: left;
+  top: 33px;
+  text-shadow: 0 1px 0px rgba(255, 255, 255, 0.8);
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  border-radius: 2px;
+  background: #f4e3b4;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f9e9b9), color-stop(100%, #efdcaf));
+  background: -webkit-linear-gradient(top, #f9e9b9, #efdcaf);
+  background: -moz-linear-gradient(top, #f9e9b9, #efdcaf);
+  background: -o-linear-gradient(top, #f9e9b9, #efdcaf);
+  background: -ms-linear-gradient(top, #f9e9b9, #efdcaf);
+  background: linear-gradient(top, #f9e9b9, #efdcaf);
+  border: 1px solid silver;
+  border-color: #eaeaea silver #707070 silver;
+  -moz-transition-duration: 0.05s;
+  -webkit-transition-duration: 0.05s;
+  -o-transition-duration: 0.05s;
+  transition-duration: 0.05s;
+}
+/* line 1584, scss/bezborody.dev.scss */
+#add-news-button div.tail-bottom {
+  top: 56px;
+  background: #f4e3b4;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #efdcaf), color-stop(100%, #ead6aa));
+  background: -webkit-linear-gradient(top, #efdcaf, #ead6aa);
+  background: -moz-linear-gradient(top, #efdcaf, #ead6aa);
+  background: -o-linear-gradient(top, #efdcaf, #ead6aa);
+  background: -ms-linear-gradient(top, #efdcaf, #ead6aa);
+  background: linear-gradient(top, #efdcaf, #ead6aa);
+  -moz-border-radius-bottomleft: 2px;
+  -webkit-border-bottom-left-radius: 2px;
+  -o-border-bottom-left-radius: 2px;
+  -ms-border-bottom-left-radius: 2px;
+  -khtml-border-bottom-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  -moz-border-radius-bottomright: 2px;
+  -webkit-border-bottom-right-radius: 2px;
+  -o-border-bottom-right-radius: 2px;
+  -ms-border-bottom-right-radius: 2px;
+  -khtml-border-bottom-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border: 1px solid silver;
+  border-top: none;
+  border-color: #eaeaea silver #707070 silver;
+  -moz-transition-duration: 0.1s;
+  -webkit-transition-duration: 0.1s;
+  -o-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+}
+/* line 1595, scss/bezborody.dev.scss */
+#add-news-button div.tail-top {
+  background: #f4e3b4;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fff0be), color-stop(100%, #f9e9b9));
+  background: -webkit-linear-gradient(top, #fff0be, #f9e9b9);
+  background: -moz-linear-gradient(top, #fff0be, #f9e9b9);
+  background: -o-linear-gradient(top, #fff0be, #f9e9b9);
+  background: -ms-linear-gradient(top, #fff0be, #f9e9b9);
+  background: linear-gradient(top, #fff0be, #f9e9b9);
+  -moz-border-radius-topleft: 2px;
+  -webkit-border-top-left-radius: 2px;
+  -o-border-top-left-radius: 2px;
+  -ms-border-top-left-radius: 2px;
+  -khtml-border-top-left-radius: 2px;
+  border-top-left-radius: 2px;
+  -moz-border-radius-topright: 2px;
+  -webkit-border-top-right-radius: 2px;
+  -o-border-top-right-radius: 2px;
+  -ms-border-top-right-radius: 2px;
+  -khtml-border-top-right-radius: 2px;
+  border-top-right-radius: 2px;
+  border: 1px solid silver;
+  border-bottom: none;
+  border-color: #eaeaea silver #707070 silver;
+  -moz-transition-duration: 0.1s;
+  -webkit-transition-duration: 0.1s;
+  -o-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+}
+/* line 1605, scss/bezborody.dev.scss */
+#add-news-button div.tail-top-mask {
+  border: none;
+  height: 3px;
+  left: 36px;
+  top: 33px;
+  background: #f9e9b9;
+  -moz-transition-duration: 0.05s;
+  -webkit-transition-duration: 0.05s;
+  -o-transition-duration: 0.05s;
+  transition-duration: 0.05s;
+}
+/* line 1614, scss/bezborody.dev.scss */
+#add-news-button:hover div.body {
+  background: #f8e9ba;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fbefbf), color-stop(100%, #f4e3b5));
+  background: -webkit-linear-gradient(top, #fbefbf, #f4e3b5);
+  background: -moz-linear-gradient(top, #fbefbf, #f4e3b5);
+  background: -o-linear-gradient(top, #fbefbf, #f4e3b5);
+  background: -ms-linear-gradient(top, #fbefbf, #f4e3b5);
+  background: linear-gradient(top, #fbefbf, #f4e3b5);
+}
+/* line 1618, scss/bezborody.dev.scss */
+#add-news-button:hover div.tail-bottom {
+  background: #f8e9ba;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f4e3b5), color-stop(100%, #f1ddb0));
+  background: -webkit-linear-gradient(top, #f4e3b5, #f1ddb0);
+  background: -moz-linear-gradient(top, #f4e3b5, #f1ddb0);
+  background: -o-linear-gradient(top, #f4e3b5, #f1ddb0);
+  background: -ms-linear-gradient(top, #f4e3b5, #f1ddb0);
+  background: linear-gradient(top, #f4e3b5, #f1ddb0);
+}
+/* line 1622, scss/bezborody.dev.scss */
+#add-news-button:hover div.tail-top {
+  background: #f8e9ba;
+  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fff5c4), color-stop(100%, #fbefbf));
+  background: -webkit-linear-gradient(top, #fff5c4, #fbefbf);
+  background: -moz-linear-gradient(top, #fff5c4, #fbefbf);
+  background: -o-linear-gradient(top, #fff5c4, #fbefbf);
+  background: -ms-linear-gradient(top, #fff5c4, #fbefbf);
+  background: linear-gradient(top, #fff5c4, #fbefbf);
+}
+/* line 1626, scss/bezborody.dev.scss */
+#add-news-button:hover div.tail-top-mask {
+  background: #fbefbf;
+}
+/* line 1631, scss/bezborody.dev.scss */
+#add-news-button:active div.body {
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.2);
+  border-color: silver;
+}
+/* line 1637, scss/bezborody.dev.scss */
+#add-news-button:active div.tail-bottom {
+  border-color: silver;
+}
+/* line 1640, scss/bezborody.dev.scss */
+#add-news-button:active div.tail-top {
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.2);
+  border-color: silver;
+}
+
+/* line 1653, scss/bezborody.dev.scss */
+.add-post-bg {
+  background: #f9f5e4;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  border-radius: 2px;
+}
+
+/* line 1657, scss/bezborody.dev.scss */
+.add-post-shadow {
+  height: 14px;
+  position: relative;
+  background: url(/i/add-plate-shadow.png) no-repeat;
+  -moz-background-size: 100% auto;
+  -webkit-background-size: 100% auto;
+  -o-background-size: 100% auto;
+  background-size: 100% auto;
+}
+
+/* line 1664, scss/bezborody.dev.scss */
+.add-post-bg, .add-post-shadow {
+  padding: 1.3em 2em 0.9em 1.5em;
+  margin-left: -1.5em;
+}
+
+/* line 1669, scss/bezborody.dev.scss */
+.add-post-shadow {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* line 1674, scss/bezborody.dev.scss */
+.plate-shadow {
+  display: block;
+  width: 100%;
+  margin-top: 0 !important;
+  margin-bottom: 10px;
+}
+
+/* line 1681, scss/bezborody.dev.scss */
+body .cv-sidenote {
+  margin-bottom: 0;
+}
+
+/* line 1689, scss/bezborody.dev.scss */
+.tags-list-side .tag b {
+  background: #f9f5e4;
+  padding: 3px 12px;
+  margin: -12px;
+  margin-top: -3px;
+  margin-bottom: -3px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  border-radius: 2px;
+}
+
+/* line 1704, scss/bezborody.dev.scss */
+.tags a:hover {
+  color: #b30;
+}
+
+/* line 1707, scss/bezborody.dev.scss */
+a.img {
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  border-radius: 2px;
+}
+
+/* line 1716, scss/bezborody.dev.scss */
+.bg-main {
+  background: #f9f5e4;
+}
+
+/* line 1720, scss/bezborody.dev.scss */
+.bg-form-footer {
+  background: #f0e5cc;
+}
+
+/* line 1727, scss/bezborody.dev.scss */
+#si1, #si2, #si3, #si4, #si5, #si6, #si7 {
+  border: none;
+}
+
+/* line 1730, scss/bezborody.dev.scss */
+#si1 img, #si2 img, #si3 img, #si4 img, #si5 img, #si6 img, #si7 img {
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  -o-border-radius: 0;
+  -ms-border-radius: 0;
+  -khtml-border-radius: 0;
+  border-radius: 0;
+}
+
+/* line 1734, scss/bezborody.dev.scss */
+body .bureau-user {
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  border-radius: 2px;
+}
+
+/* line 1738, scss/bezborody.dev.scss */
+body #submenu .active_menu {
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  border-radius: 2px;
+  background: #f9f5e4;
+}
+
+/* line 1749, scss/bezborody.dev.scss */
+.item a.img {
+  border-color: #ccc;
+}
+/* line 1751, scss/bezborody.dev.scss */
+.item a.img:hover {
+  border-color: #b30;
+}
+
+/* line 1760, scss/bezborody.dev.scss */
+body .similar .bubble {
+  top: -39px;
+}
+
+/* line 1764, scss/bezborody.dev.scss */
+body .similar .count {
+  top: -20px;
+}
+
+/* line 1768, scss/bezborody.dev.scss */
+body .similar .count span {
+  font-size: 9px;
+}
+
+/* line 1772, scss/bezborody.dev.scss */
+body .similar-switcher {
+  padding: 3px 12px;
+}
+
+/* line 1776, scss/bezborody.dev.scss */
+body #similar-category-box .active-switcher {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  padding: 4px 12px 5px;
+}
+
+/* line 1781, scss/bezborody.dev.scss */
+body #similar-category-box {
+  margin-left: -8px;
+}
+
+/* line 1789, scss/bezborody.dev.scss */
+.burosfera table {
+  border-collapse: separate;
+  border-spacing: 2px;
+}
+
+/* line 1795, scss/bezborody.dev.scss */
+.wrapper .content .image-delete {
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  border-radius: 2px;
+}
+
+/* line 1799, scss/bezborody.dev.scss */
+body .wrapper.white .content .style-switcher .white {
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  border-radius: 2px;
+  background: #f9f5e4;
+}
+
+/* line 1804, scss/bezborody.dev.scss */
+.wrapper .content .style-switcher .black a, .wrapper .content .style-switcher .white a {
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  border-radius: 2px;
+}
+
+/* line 1808, scss/bezborody.dev.scss */
+body .wrapper .content .edit-form .submit-area {
+  background: #f0e5cc;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  border-radius: 2px;
+}
+
+/* line 1813, scss/bezborody.dev.scss */
+body .wrapper .content .edit-form p.socio img {
+  margin-right: 4px;
+  margin-left: 17px;
+}
+
+/* line 1818, scss/bezborody.dev.scss */
+body .wrapper .content .edit-form p.socio input {
+  margin-right: 0;
+}
+
+/* line 1822, scss/bezborody.dev.scss */
+body .wrapper .content .edit-form p.socio .tw {
+  margin-left: -18px;
+}
+
+/* line 1827, scss/bezborody.dev.scss */
+body .form-bg-footer input[type="text"] {
+  width: 22em;
+}
+
+/* line 1833, scss/bezborody.dev.scss */
+body .wrapper .content .edit-form .submit-area {
+  height: 66px;
+  width: 730px;
+}
+
+/* line 1842, scss/bezborody.dev.scss */
+.count-something {
+  font-size: 9px;
+  font-family: Verdana, Arial, sans-serif;
+  padding-left: 1px;
+}
+
+/* line 1851, scss/bezborody.dev.scss */
+ul.b-regular-switcher li {
+  display: -moz-inline-box;
+  -moz-box-orient: vertical;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  font-size: 11px;
+  font-family: Verdana, Arial, sans-serif;
+  padding: 4px 12px 5px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  border-radius: 2px;
+}
+/* line 1852, scss/bezborody.dev.scss */
+ul.b-regular-switcher li:first-child {
+  margin-left: -12px;
+}
+/* line 1860, scss/bezborody.dev.scss */
+ul.b-regular-switcher li.active {
+  background: #f9f5e4;
+}
+/* line 1862, scss/bezborody.dev.scss */
+ul.white-links li.active .position {
+  color: black;
+}
+ul.white-links li.active .position {
+  color: white;
+}
+/* line 1866, scss/bezborody.dev.scss */
+ul.b-regular-switcher li.empty {
+  color: #ddd;
+}
+/* line 1870, scss/bezborody.dev.scss */
+ul.b-regular-switcher li .position .star-black {
+  margin-top: -2px;
+}
+
+/* line 1878, scss/bezborody.dev.scss */
+body .wrapper.white .user-nav, body .wrapper.black .user-nav {
+  background: none;
+}
+/* line 1880, scss/bezborody.dev.scss */
+body .wrapper.white .user-nav ul, body .wrapper.black .user-nav ul {
+  margin-left: -12px;
+  overflow: hidden;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  border-radius: 2px;
+}
+/* line 1884, scss/bezborody.dev.scss */
+body .wrapper.white .user-nav ul li, body .wrapper.black .user-nav ul li {
+  float: left;
+  margin-bottom: 0;
+  font-size: 11px;
+  padding: 5px 12px 5px;
+  font-family: Verdana, Arial, sans-serif;
+}
+/* line 1887, scss/bezborody.dev.scss */
+body .wrapper.white .user-nav ul li:first-child, body .wrapper.black .user-nav ul li:first-child {
+  margin-left: 0;
+  -moz-border-radius-topright: 0;
+  -webkit-border-top-right-radius: 0;
+  -o-border-top-right-radius: 0;
+  -ms-border-top-right-radius: 0;
+  -khtml-border-top-right-radius: 0;
+  border-top-right-radius: 0;
+  -moz-border-radius-bottomright: 0;
+  -webkit-border-bottom-right-radius: 0;
+  -o-border-bottom-right-radius: 0;
+  -ms-border-bottom-right-radius: 0;
+  -khtml-border-bottom-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+/* line 1895, scss/bezborody.dev.scss */
+body .wrapper.white .user-nav ul li.active {
+  background: #f9f5e4;
+}
+
+body .wrapper.black .user-nav ul li.active {
+  background: #b30;
+  color: #fff;
+}
+
+/* line 1902, scss/bezborody.dev.scss */
+body .wrapper.white .user-nav ul {
+  background: url("/i/big-white-arrow.png") 100% 50%;
+}
+
+/* line 1906, scss/bezborody.dev.scss */
+body .wrapper.black .user-nav ul {
+  background: url("/i/big-black-arrow.png") 100% 50%;
+}
+
+/* line 1914, scss/bezborody.dev.scss */
+ul.tags li {
+  font-size: 11px;
+  font-family: Verdana, Arial, sans-serif;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  border-radius: 2px;
+}
+/* line 1918, scss/bezborody.dev.scss */
+ul.tags li .spacer {
+  padding: 4px 0 5px 0;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  border-radius: 2px;
+}
+/* line 1922, scss/bezborody.dev.scss */
+ul.tags li.active {
+  margin-left: -12px;
+}
+/* line 1923, scss/bezborody.dev.scss */
+ul.tags li.active .spacer {
+  background: #f9f5e4;
+  padding: 4px 12px 5px;
+}
+
+/* line 1932, scss/bezborody.dev.scss */
+body .menu-list-header {
+  margin-bottom: 0.7em;
+}
+
+
+.vedro img
+{
+ position: absolute;
+}
+
+.vedro p
+{
+ position: absolute;
+ width: 100%;
+}
+
+
+/* line 1936, scss/bezborody.dev.scss */
+a.vedro {
+  border-bottom: none;
+  text-align: center;
+  display: block;
+}
+
+/* line 1942, scss/bezborody.dev.scss */
+a.vedro p {
+   width: 100%;
+   position: absolute;
+   text-align: center;
+  text-decoration: none;
+}
+
+/* line 1950, scss/bezborody.dev.scss */
+a.vedro p u {
+  border-bottom: 1px solid #0c4f72;
+  border-color: #487b95;
+  border-color: rgba(102, 51, 153, 0.2);
+}
+
+/* line 1955, scss/bezborody.dev.scss */
+a.vedro:visited p u {
+  border-color: #8c66b2;
+  border-color: rgba(102, 51, 153, 0.2);
+}
+
+/* line 1960, scss/bezborody.dev.scss */
+a.vedro:hover p u {
+  border-color: #b30;
+  border-color: rgba(187, 51, 0, 0.2);
+}
+
+ul.menu li ul.submenu li a.therm span {
+border-color: black;
+}
+
+ul.tags li.active {
+ border: none;
+ color: black;
+
+}
+
+wbr.typo {
+	display: none;
+}
+
+
+
+/*** ЗАКОМЕНЧЕНО -----------------------------------------------------
+----------------------------------------------------------------------
+body {
+  .t_visualization i{
+    border-color: mix(#821515, mix(#821515, #fff));
+    border-color: transparentize(#821515, .8);
+  }
+  .t_navigation i{
+    border-color: mix(#a65600, mix(#a65600, #fff));
+    border-color: transparentize(#a65600, .8);
+  }
+  .t_interface i{
+    border-color: mix(#1A7E85, mix(#1A7E85, #fff));
+    border-color: transparentize(#1A7E85, .8);
+  }
+  .t_sites i{
+    border-color: mix(#175A87, mix(#175A87, #fff));
+    border-color: transparentize(#175A87, .8);
+  }
+  .t_product i{
+    border-color: mix(#000000, mix(#000000, #fff));
+    border-color: transparentize(#000000, .8);
+  }
+  #scroller_controller span.t_empty i {border: none;}
+  #scroller_controller span:hover i {
+    border-color: mix(#f04100, mix(#f04100, #fff));
+    border-color: transparentize(#f04100, .8);
+  }
+}
+*/
+
+
+ .search-form .search-button {line-height: 10px !important;} 
